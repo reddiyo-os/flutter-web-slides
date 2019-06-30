@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
           textTheme: Theme.of(context).textTheme.apply(
             bodyColor: CustomColors.colorDarkest,
             displayColor: CustomColors.colorDarkest,
-            fontSizeFactor: 1.2,
+            fontSizeFactor: 3,
           )
         ),
       onGenerateRoute: CustomRoutes().getCustomRoutes,

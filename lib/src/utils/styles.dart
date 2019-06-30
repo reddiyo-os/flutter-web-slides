@@ -33,9 +33,26 @@ const TextStyle ryCtaHeadline2Text = TextStyle(fontSize: 16.0, color: CustomColo
 const TextStyle ryMediumTextNote = TextStyle(fontSize: 14.0, height: 1.1, fontStyle: FontStyle.italic, color: Color(0xFF828d9d)); //customPrimary[300]
 const TextStyle ryAppBarHeader = TextStyle(fontSize: 23);
 
-//presentation
-const TextStyle ryHeadlineLargeText = TextStyle(fontSize: 48.0, color: CustomColors.colorBlue, height: 1.1);
+
 
 //button style
 const Color ryButtonTxtColor = ryLightTxtOnDark;
 const RoundedRectangleBorder ryRoundedBorder = RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(3.0)));
+
+
+
+//presentation
+const TextStyle ryHeadlineLargeText = TextStyle(fontSize: 48.0, color: CustomColors.colorBlue, height: 1.1);
+const EdgeInsets slidePadding = EdgeInsets.only(left: 30, right: 30, top: 30, bottom: 60);
+
+TextStyle getHeadlineTextStyle({@required double deviceWidth}) {
+  return TextStyle(fontSize: deviceWidth * .04, color: CustomColors.colorBlue, height: 1.1);
+}
+
+TextStyle getBulletTextStyle({@required double deviceWidth}) {
+  return TextStyle(fontSize: deviceWidth * .03, height: 1.7);
+}
+
+EdgeInsets getSlidePadding({@required double deviceWidth}) {
+  return EdgeInsets.only(top: deviceWidth * .04, right: deviceWidth * .05, left: deviceWidth * .05);
+}
