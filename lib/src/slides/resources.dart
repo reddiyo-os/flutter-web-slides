@@ -54,7 +54,7 @@ class Resources extends StatelessWidget {
                 },
                 child: Text('    - https://pub.dev/packages/provider', style: _smallBulletStyle)
               ),
-              Text(' • Explanation of Provider\'s Approach', style: _bulletStyle),
+              Text('• Explanation of Provider\'s Approach', style: _bulletStyle),
               Listener(
                 onPointerDown: (_) {
                   window.open('https://www.youtube.com/watch?v=2N75m6Pq9eY&t=762s', 'tab');

@@ -48,7 +48,7 @@ const TextStyle modalHeaderStyle = TextStyle(fontSize: 22.0, color: CustomColors
 const TextStyle modalSourceStyle = TextStyle(fontSize: 18.0, color: CustomColors.colorPrimary);
 
 TextStyle getHeadlineTextStyle({@required double deviceWidth}) {
-  return TextStyle(fontSize: deviceWidth * .04, color: CustomColors.colorBlue, height: 1.1);
+  return TextStyle(fontSize: deviceWidth * .04, color: CustomColors.colorBlue, height: 1.2);
 }
 
 TextStyle getBulletTextStyle({@required double deviceWidth}) {

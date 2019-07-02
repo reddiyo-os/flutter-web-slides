@@ -7,6 +7,7 @@ import '../slides/good_parts.dart';
 import '../slides/good_to_know_widgets.dart';
 import '../slides/wip.dart';
 import '../slides/other_news.dart';
+import '../slides/predictions.dart';
 import '../widgets/footer_logo.dart';
 
 class Slides extends StatefulWidget {
@@ -22,7 +23,8 @@ class _SlidesState extends State<Slides> {
       GoodParts(),
       GoodToKnowWidgets(),
       WorkInProgress(),
-      OtherNews()
+      OtherNews(),
+      Predictions()
     ];
     int _slideNumber = 0;
 

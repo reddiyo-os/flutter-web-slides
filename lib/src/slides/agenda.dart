@@ -22,8 +22,9 @@ class Agenda extends StatelessWidget {
             Text('   • The Good Parts', style: _bulletStyle),
             Text('   • Good to Know Widgets', style: _bulletStyle),
             Text('   • Work In Progress', style: _bulletStyle),
-            Text('• Other Flutter/Dart News', style: _bulletStyle), //provider wins, spread operator, for loop, reorderable list view, accessibility semantics label
-            Text('• Google I/O Review', style: _bulletStyle), //dev reviews, party, tour, Dash, pictures
+            Text('• Other Flutter/Dart News', style: _bulletStyle),
+            Text('• Flutter Predictions', style: _bulletStyle),
+            Text('• Conference Review', style: _bulletStyle),
             Text('• Resources', style: _bulletStyle)
           ]
         )),
