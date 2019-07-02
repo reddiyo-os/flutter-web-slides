@@ -24,16 +24,16 @@ class Intro extends StatelessWidget {
     }
     
     return Row(children: <Widget>[
-      SlideImage(imagePath: 'assets/images/shadow.jpg'),
+      SlideImage(imagePath: 'assets/images/dancer.jpg'),
       Expanded(
         child: ListView(
           padding: getSlidePadding(deviceWidth: _deviceWidth),
           children: <Widget>[
             Text('Intro to Flutter for Web', style: getHeadlineTextStyle(deviceWidth: _deviceWidth)),
             SizedBox(height: 20,),
-            Text('• Hummingbird', style: _bulletStyle), //what is it? name is dead, idea is flutter everywhere
-            Text('• Flutter All the Things!', style: _bulletStyle), //ios, android, chrome os, windows, mac, linux, web, actively working on desktop
-            Text('• Technical Preview', style: _bulletStyle), //technical preview announcement, branch of flutter right now, emily x 2
+            Text('• Hummingbird', style: _bulletStyle),
+            Text('• Flutter All the Things!', style: _bulletStyle),
+            Text('• Technical Preview', style: _bulletStyle),
             Text('• HTML, CSS (w/canvas fallback)', style: _bulletStyle),
             Row(
               children: <Widget>[
@@ -48,7 +48,6 @@ class Intro extends StatelessWidget {
                 ),
               ],
             ),
-            //(Shack and Fortuna) Beyond Mobile: Building Flutter Apps for iOS, Android, Chrome OS, and Web
           ]
         )),
     ]);

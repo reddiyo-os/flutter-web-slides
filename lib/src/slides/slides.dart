@@ -7,6 +7,7 @@ import '../slides/good_parts.dart';
 import '../slides/good_to_know_widgets.dart';
 import '../slides/wip.dart';
 import '../slides/other_news.dart';
+import '../widgets/footer_logo.dart';
 
 class Slides extends StatefulWidget {
   @override
@@ -37,15 +38,7 @@ class _SlidesState extends State<Slides> {
             height: 55,
             child: Row(
               children: <Widget>[
-                Container(
-                  height: 55,
-                  color: CustomColors.colorPrimary,
-                  child: Image.network(
-                    'assets/images/reddiyo-logo-reversed.png',
-                  ),
-                  padding: const EdgeInsets.only(bottom: 15, top: 15),
-                  width: _deviceWidth * .33
-                ),
+                FooterLogo(),
                 Expanded(
                   child: Padding(
                     padding: const EdgeInsets.only(bottom: 12.0),
@@ -85,7 +78,7 @@ class _SlidesState extends State<Slides> {
                               setState(() { _slideNumber = _slideNumber + 1; });
                             }
                             else {
-                              Navigator.popAndPushNamed(context, '/google-io-review');
+                              Navigator.pushNamed(context, '/google-io-review');
                             }
                           },
                           child: Icon(

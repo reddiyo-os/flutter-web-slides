@@ -17,12 +17,12 @@ class WorkInProgress extends StatelessWidget {
           children: <Widget>[
             Text('Work in Progress', style: getHeadlineTextStyle(deviceWidth: _deviceWidth)),
             SizedBox(height: 20,),
-            Text('• Still Need to Optimize', style: _bulletStyle), //keyboard listener, hovers (listener widget), etc, webdevs might get frustrated
-                  // browser UI differences
-            Text('• Deeplinking is Glitchy', style: _bulletStyle), //sometimes it works? Doesn't retain URL in the nav bar
-            Text('• Back Button Hijinx', style: _bulletStyle),
-            Text('• No Stateful Hot Reload', style: _bulletStyle), //only hot restart, actively working on stateful hot reload
-            Text('• Performance', style: _bulletStyle), //JS file is 1 MB!
+            Text('• Still Need to Optimize', style: _bulletStyle),
+            Text('• No Plugin System Yet', style: _bulletStyle),
+            Text('• Deeplinking and Back Button are Glitchy', style: _bulletStyle),
+            Text('• Material Icons and Image Issues', style: _bulletStyle),
+            Text('• No Stateful Hot Reload', style: _bulletStyle),
+            Text('• Performance', style: _bulletStyle),
           ]
         )),
     ]);

@@ -10,15 +10,15 @@ class Agenda extends StatelessWidget {
     final TextStyle _bulletStyle = getBulletTextStyle(deviceWidth: _deviceWidth);
     
     return Row(children: <Widget>[
-      SlideImage(imagePath: 'assets/images/dancer.jpg'),
+      SlideImage(imagePath: 'assets/images/shadow.jpg'),
       Expanded(
         child: ListView(
           padding: getSlidePadding(deviceWidth: _deviceWidth),
           children: <Widget>[
             Text('Agenda', style: getHeadlineTextStyle(deviceWidth: _deviceWidth)),
-            SizedBox(height: 20,),
+            SizedBox(height: 20),
             Text('• Flutter for Web', style: _bulletStyle),
-            Text('   • Intro', style: _bulletStyle), //what is it?, technical preview, hummingbird is dead, emily x 2
+            Text('   • Intro', style: _bulletStyle),
             Text('   • The Good Parts', style: _bulletStyle),
             Text('   • Good to Know Widgets', style: _bulletStyle),
             Text('   • Work In Progress', style: _bulletStyle),

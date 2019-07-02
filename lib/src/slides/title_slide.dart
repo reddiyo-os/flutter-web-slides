@@ -27,13 +27,18 @@ class TitleSlide extends StatelessWidget {
             )
           ),
           Positioned(
-            top: deviceHeight * .28,
+            top: deviceHeight * .18,
             width: deviceWidth,
             child: Center(
               child: Column(
                 children: <Widget>[
+                  Image.network(
+                    'assets/images/logo_flutter_1080px_clr.png',
+                    width: deviceWidth * .10,
+                  ),
+                  SizedBox(height: 50,),
                   Text('Flutter for Web', style: TextStyle(color: Colors.white, fontSize: fontSizeHeadline, fontWeight: FontWeight.w200)),
-                  SizedBox(height: 30,),
+                  SizedBox(height: 20,),
                   Text('and Other Highlights from Google I/O', style: TextStyle(color: Colors.white, fontSize: fontSizeSubHead)),
                   SizedBox(height: 50,),
                   RawMaterialButton(
