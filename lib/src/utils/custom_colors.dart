@@ -4,11 +4,8 @@ import 'package:flutter_web/material.dart';
 const _colorDarkestVal = 0xFF384250;
 const _colorDarkVal = 0xFF3c4c66;
 const _colorPrimaryVal = _colorDarkVal;
-const _colorPrimary70Val = 0xB33c4c66; // ~70% opacity
 const _colorPrimary90Val = 0xEE3c4c66; // ~90% opacity
 const _colorAccentVal = 0xFFd45753;
-const _colorWhiteVal = 0xF2FFFFFF;
-const _colorOffWhiteVal = 0xFFF9F9F9;
 const _colorBlueVal = 0xFF538287;
 const _colorBlueLightVal = 0xE688BDBC;
 const _colorBlueMediumVal = 0xFF78AEAD;
@@ -16,9 +13,7 @@ const _colorBlueWashLightVal = 0x2688BDBC;
 const _colorBlueWashMediumVal = 0x4D88BDBC;
 const _colorGreenVal = 0xFF93C178;
 const _colorGoldVal = 0xFFF8B546;
-const _colorGoldWashLightVal = 0x22F8B546;
 const _colorGoldDarkVal = 0xFFEEA731;
-const _colorGoldDarkestVal = 0xFFD08303;
 
 class CustomColors {
   CustomColors._();
@@ -26,11 +21,8 @@ class CustomColors {
   static const Color colorDarkest = Color(_colorDarkestVal);
   static const Color colorDark = Color(_colorDarkVal);
   static const Color colorPrimary = Color(_colorPrimaryVal);
-  static const Color colorPrimary70 = Color(_colorPrimary70Val);
   static const Color colorPrimary90 = Color(_colorPrimary90Val);
   static const Color colorAccent = Color(_colorAccentVal);
-  static const Color colorWhite = Color(_colorWhiteVal);
-  static const Color colorOffWhite = Color(_colorOffWhiteVal);
   static const Color colorBlue = Color(_colorBlueVal);
   static const Color colorBlueLight = Color(_colorBlueLightVal);
   static const Color colorBlueMedium = Color(_colorBlueMediumVal);
@@ -38,9 +30,7 @@ class CustomColors {
   static const Color colorWashMedium = Color(_colorBlueWashMediumVal);
   static const Color colorGreen = Color(_colorGreenVal);
   static const Color colorGold = Color(_colorGoldVal);
-  static const Color colorGoldWashLight = Color(_colorGoldWashLightVal);
   static const Color colorGoldDark = Color(_colorGoldDarkVal);
-  static const Color colorGoldDarkest = Color(_colorGoldDarkestVal);
 }
 
 const MaterialColor customPrimary = MaterialColor(
